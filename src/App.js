@@ -5,6 +5,7 @@ import { ClimbingBoxLoader } from "react-spinners";
 import FetchData from "./components/FetchData";
 import CounterTitle from "./components/CounterTitle";
 import { ContextApiProvider } from "./components/Context/ContextApi";
+import Reducer from "./components/Reducer";
 
 function App() {
   /* const [loading, setLoading] = useState(false);
@@ -28,6 +29,7 @@ function App() {
       ) : ( */}
         <FetchData></FetchData>
         <CounterTitle></CounterTitle>
+        <Reducer></Reducer>
         {/* )} */}
       </div>
     </ContextApiProvider>
